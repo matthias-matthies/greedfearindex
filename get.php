@@ -5,4 +5,4 @@ require __DIR__ . '/vendor/autoload.php';
 use CNTRX\Database;
 
 $database = new Database();
-echo $database->getCurrentGreedFearIndex();
+echo json_encode($database->getCurrentGreedFearIndex());
