@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "psr-4": {
+            "CNTRX\\": "classes"
+        }
+    },
+    "require": {
+        "fabpot/goutte": "^4.0",
+        "kreait/firebase-php": "^6.1"
+    }
+}
