@@ -13,7 +13,8 @@ final class DatabaseTest extends TestCase
         $this->assertTrue(gettype($currentIndex) === "integer");
     }
 
-    public function testSetCurrentGreedFearIndex() {
+    public function testSetCurrentGreedFearIndex(): void 
+    {
         /**
          * Sets Value
          * Scrapes the Value
