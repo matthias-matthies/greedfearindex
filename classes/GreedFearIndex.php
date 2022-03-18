@@ -10,6 +10,6 @@ class GreedFearIndex
         $client = new Client();
         $crawler = $client->request('GET', 'https://alternative.me/crypto/fear-and-greed-index/');
     
-        return $crawler->filter('.fng-value .fng-circle')->text();
+        return intval($crawler->filter('.fng-value .fng-circle')->text());
     }
 }
